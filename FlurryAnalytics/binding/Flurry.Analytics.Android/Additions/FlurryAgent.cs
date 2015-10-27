@@ -6,7 +6,7 @@ namespace Flurry.Analytics
 	{
 		public static void SetGender(Gender gender)
 		{
-			FlurryAgent.SetGender ((sbyte)gender);
+			FlurryAgent.SetGender(gender);
 		}
 	}
 
@@ -17,7 +17,7 @@ namespace Flurry.Analytics
 		Unknown = -1
 	}
 	
-	public class FlurryAgentEventsListener : Java.Lang.Object, IFlurryAgentListener
+	public class FlurryAgentEventsListener : Java.Lang.Object
 	{
 		public event EventHandler SessionStarted;
 
